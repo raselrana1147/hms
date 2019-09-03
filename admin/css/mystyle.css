@@ -1,0 +1,193 @@
+.myprofile{    
+	width: 600px;
+    padding: 10px;
+    margin: 50px auto;
+    min-height: 300px;
+    border: 2px groove #fffcfc;
+}
+.image{
+    float: left;
+    width: 225px;
+    margin-right: 10px;
+    padding: 10px;
+    height: 270px;
+
+}
+.image a{
+    margin-left: 84px;
+    color: #524343;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+.image img{
+    width: 150px;
+    height: 150px;
+    margin-left: 35px;
+    border-radius: 72px;
+}
+.info{
+	
+    width: 300px;
+    float: right;
+    padding: 10px;
+    min-height: 270px;
+}
+.info tr td{
+   
+    width: 214px;
+    font-size: 14px;
+    padding: 17px 4px 0px 0px;
+  
+}
+.info tr th{
+   
+    width: 214px;
+    font-size: 14px;
+    padding: 17px 4px 0px 0px;
+    font-family: Tahoma
+  
+}
+.dimage{ 
+    width: 190px;
+    float: right;
+    margin-top: 35px;
+    height: 150px;
+    border: 1px solid #ddd;
+     padding: 4px;
+ }
+.dimage img{
+    width: 100%;
+    height: 100%;
+}
+.doctorprofile{
+    width: 650px;
+    padding: 10px;
+    margin: 50px auto;
+    min-height: 480px;
+    border: 2px groove #fffcfc;
+}
+.discharge{
+    width: 500px; 
+    padding: 4px;
+    margin: 0 auto; 
+    border: 2px solid #ddd;
+}
+.invoice{
+    width: 700px;
+    margin: 0 auto;
+    padding: 4px;
+    border: 2px groove #ddd;
+    height: 480px;
+    border-radius: 3px
+}
+.clear{overflow: hidden;}
+.headerinvoice{
+    border-bottom: 1px solid #7d7979;
+    padding-bottom: 17px;
+}
+.left{
+    float: left;
+    padding: 3px;
+    width: 126px;
+}
+.right{
+    float: right; 
+    padding: 3px;
+    width: 113px;
+}
+.navtittle{
+    margin-top: 8px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #7d7979;
+}
+.navtittle aside{
+    float: left;
+    width: 175px;
+    padding: 10px 0px;
+    text-align: center;
+    font-family: arial;font-size: 14px;
+    font-weight: bold;
+}
+.invoicecontent{
+    border-bottom: 1px solid #7d7979;
+    padding-bottom: 10px;
+}
+.invoicecontent aside{
+    float: left;
+    width: 200px;
+    padding: 10px 0px; 
+    text-align: center;
+    font-family: arial;
+    height: 200px;
+    border-right:1px solid #7d7979;
+    margin-top:10px;
+}
+.invoicecontent aside table{margin: 4px}
+.invoicecontent aside table tr th{
+    width:50px;
+    text-align: left;
+}
+.invoicecontent aside table tr td{
+    width: 120px;
+    text-align: left;
+    padding-left: 8px
+}
+.displaycsot{
+    border-bottom: 1px solid #7d7979;
+    padding-bottom: 10px;
+}
+.displaycsot aside{
+    float: right;
+    margin-right: 50px;
+}
+.printbutton{
+    margin: 10px 50%;
+    padding: 6px;
+    width: 100px;
+    border-radius: 3px;
+    border:1px solid #ddd;
+    cursor: pointer;
+}
+.costsection{
+    float: left;
+    width: 80px;
+    height: 200px;
+}
+.messagestyle{
+    width: 540px;
+    height: 200px;
+    font-family: arial;
+    font-size: 16px;
+    padding: 4px;
+}
+.mydashboard{
+    padding: 6px;
+    height: 150px
+}
+.mydashboard aside{
+   float: left;
+    width: 260px;
+    border: 1px solid #ddd;
+    margin-left: 6px;
+    border-radius: 6px;
+    height: 100%;
+    text-align: center;
+   -webkit-box-shadow: -1px 10px 30px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 10px 30px -11px rgba(0,0,0,0.75);
+   box-shadow: -1px 10px 30px -11px rgba(0,0,0,0.75);
+
+}
+.mydashboard aside h4{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.mydashboard aside span{
+    font-size: 16px;
+    font-weight: normal;
+}
+.doctor{background: #99ff66}
+.user{background: #00ff99}
+.patientcolor{background: #ff33cc;}
+.patiencurent{background: #00ccff}
+.makeinvoicelist{height: 500px; width: 720px;margin: 20px auto;background: #ddd;}

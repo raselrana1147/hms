@@ -1,0 +1,33 @@
+body{padding: 0px;margin: 0px}
+.mylog{ 
+
+	margin-top: 100px;
+    background: #F5F5F5;
+    padding: 8px;
+}
+.imagepanel{
+	width: 98%;
+ margin:  20px auto;
+}
+.imagepanel img{ width: 100%;}
+
+.mylog h4{
+	text-align: center;
+    margin: 5px 0px 5px 0px;
+    font-size: 20px;
+    font-family: Tahma;
+    font-weight: normal;
+}
+.mylog input[type="submit"]{
+	width: 98%;
+    padding: 8px;
+    background: #204562;
+    border: 1px groove #115375;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.error{color: red}
+.success{color: green}
